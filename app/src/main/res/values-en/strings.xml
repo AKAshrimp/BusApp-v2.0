@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APP 2025</string>
+    <string name="app_description">Hong Kong Bus Route Enquiry App</string>
+    
+    <!-- 底部導航 -->
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    
+    <!-- 側邊抽屜菜單 -->
+    <string name="language_selection">Language</string>
+    <string name="ticket">Monthly Pass</string>
+    <string name="refresh_data">Refresh Data</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="official_website">Official Website</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="switch_language">Switch Language</string>
+    
+    <!-- 其他 -->
+    <string name="now">Now</string>
+    <string name="minutes">mins</string>
+    <string name="terminus">Terminus</string>
+    <string name="latest_bus">Last Bus</string>
+    
+    <!-- 收藏功能 -->
+    <string name="add_to_favorite">Add to Favorites</string>
+    <string name="remove_from_favorite">Remove from Favorites</string>
+    <string name="favorite_added">Added to Favorites</string>
+    <string name="favorite_removed">Removed from Favorites</string>
+    <string name="favorite_routes">Favorite Routes</string>
+    <string name="no_favorites">No favorite routes yet</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_favorite_added">Added to Favorites</string>
+    <string name="action_favorite_removed">Removed from Favorites</string>
+    
+    <!-- 抽屜菜單 -->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    
+    <!-- API相關 -->
+    <string name="loading_error">Loading failed, please try again later</string>
+    <string name="refreshing">Refreshing Data…</string>
+    <string name="data_updated">Data updated</string>
+    <string name="network_error">Network connection error, please check your network settings</string>
+    <string name="no_data">No Data Available</string>
+    
+    <!-- 路線詳情頁面 -->
+    <string name="route_detail">Route Details</string>
+    <string name="fare">Fare</string>
+    <string name="all_stops">All Stops</string>
+    <string name="eta_info">Estimated Arrival Time</string>
+    <string name="tap_to_view_eta">Tap to view arrival times</string>
+    <string name="loading_eta">Loading arrival times...</string>
+    <string name="eta_unavailable">ETA unavailable</string>
+    <string name="first_eta">1st Bus</string>
+    <string name="second_eta">2nd Bus</string>
+    <string name="third_eta">ETA %1$s</string>
+    
+    <!-- 搜索頁面 -->
+    <string name="search_hint">Enter route number</string>
+    <string name="search_title">Search Route</string>
+    <string name="no_search_results">No routes found matching your criteria</string>
+    <string name="search_no_results">No matching routes found</string>
+    <string name="search_result">Search Results</string>
+    
+    <!-- 路線站點頁面 -->
+    <string name="route_stops">Route Stops</string>
+    <string name="arrival">Arrival</string>
+    <string name="loading_stops">Loading stops information...</string>
+    <string name="no_stops_available">No stops information available</string>
+    <string name="stop_number">%1$d. %2$s</string>
+    
+    <!-- Error messages -->
+    <string name="general_error">Application error, please restart the app</string>
+    <string name="no_stops_found">No stop information found</string>
+</resources> 

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 菜單項ID -->
+    <item name="menu_favorites" type="id" />
+</resources> 

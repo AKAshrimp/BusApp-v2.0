@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language"
+            android:title="@string/language_selection" />
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_refresh"
+            android:title="@string/refresh_data" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notification_settings" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_info_circle"
+            android:title="@string/terms_of_use" />
+    </group>
+</menu> 

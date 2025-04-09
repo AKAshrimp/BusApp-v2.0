@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="12dp">
+
+    <!-- 站点序号线条（上） -->
+    <View
+        android:id="@+id/stop_line_top"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:background="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/stop_icon"
+        app:layout_constraintEnd_toEndOf="@+id/stop_icon"
+        app:layout_constraintStart_toStartOf="@+id/stop_icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 站点图标 -->
+    <ImageView
+        android:id="@+id/stop_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/circle_background_red"
+        android:contentDescription="@string/bus_stop_icon"
+        android:src="@drawable/ic_bus_stop"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_stop_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_stop_name" />
+
+    <!-- 站点序号线条（下） -->
+    <View
+        android:id="@+id/stop_line_bottom"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:background="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/stop_icon"
+        app:layout_constraintStart_toStartOf="@+id/stop_icon"
+        app:layout_constraintTop_toBottomOf="@+id/stop_icon" />
+
+    <!-- 站点名称 -->
+    <TextView
+        android:id="@+id/tv_stop_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/iv_expand"
+        app:layout_constraintStart_toEndOf="@+id/stop_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1. Mui Wo Ferry Pier" />
+
+    <!-- 展开/折叠箭头 -->
+    <ImageView
+        android:id="@+id/iv_expand"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/expand_icon"
+        android:src="@drawable/ic_chevron_down"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_stop_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_stop_name" />
+
+    <!-- 到站时间/详情 -->
+    <TextView
+        android:id="@+id/tv_eta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stop_icon"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stop_name"
+        tools:text="預計到站時間"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

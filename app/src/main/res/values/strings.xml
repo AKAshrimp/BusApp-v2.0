@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APP 2025</string>
+    <string name="app_description">香港巴士路線查詢應用</string>
+    
+    <!-- 主頁面 -->
+    <string name="action_settings">設定</string>
+    <string name="search">搜尋</string>
+    <string name="routes">路線</string>
+    <string name="stops">站點</string>
+    <string name="favorites">收藏</string>
+    <string name="nearby">附近</string>
+    <string name="navigation_drawer_open">打開抽屜式導航</string>
+    <string name="navigation_drawer_close">關閉抽屜式導航</string>
+    <string name="language">語言</string>
+    <string name="settings">設定</string>
+    <string name="about">關於</string>
+    <string name="feedback">反饋</string>
+    <string name="eta_now">現在</string>
+    <string name="min">分鐘</string>
+    <string name="eta_minutes">%d 分鐘</string>
+    <string name="now">現在</string>
+    
+    <!-- 底部導航 -->
+    <string name="home">主頁</string>
+    <string name="favorite">收藏</string>
+    
+    <!-- 側邊抽屜菜單 -->
+    <string name="language_selection">語言選擇</string>
+    <string name="ticket">九巴月票</string>
+    <string name="refresh_data">資料更新</string>
+    <string name="notification_settings">上車提示設定</string>
+    <string name="official_website">官方網站</string>
+    <string name="terms_of_use">使用條款</string>
+    <string name="switch_language">切換語言</string>
+    
+    <!-- 搜索頁面 -->
+    <string name="search_hint">輸入路線號碼</string>
+    <string name="search_title">搜尋路線</string>
+    <string name="no_search_results">沒有找到符合條件的路線</string>
+    <string name="search_no_results">沒有找到符合的路線</string>
+    <string name="search_result">搜尋結果</string>
+    
+    <!-- 路線詳情頁面 -->
+    <string name="route_info">路線資訊</string>
+    <string name="route_detail">路線詳情</string>
+    <string name="from_to">%1$s 往 %2$s</string>
+    <string name="all_stops">顯示所有站點</string>
+    <string name="show_map">顯示地圖</string>
+    <string name="eta_format">預計 %1$s 到達</string>
+    <string name="no_eta">暫無到站資訊</string>
+    <string name="next_stop">下一站</string>
+    <string name="fare">車費</string>
+    <string name="loading_eta">載入到站時間中...</string>
+    <string name="refreshing">資料更新中…</string>
+    <string name="minutes">分鐘</string>
+    <string name="no_data">沒有數據</string>
+    
+    <!-- 路線站點頁面 -->
+    <string name="route_stops">路線站點</string>
+    <string name="arrival">行車路線</string>
+    <string name="loading_stops">載入站點資訊...</string>
+    <string name="no_stops_available">暫無站點資訊</string>
+    <string name="stop_number">%1$d. %2$s</string>
+    
+    <!-- 錯誤資訊 -->
+    <string name="general_error">發生錯誤，請稍後重試</string>
+    <string name="no_stops_found">未找到站點資訊</string>
+    <string name="loading_error">載入失敗，使用備用數據</string>
+    <string name="data_updated">數據已更新</string>
+    
+    <!-- 站點列表頁面 -->
+    <string name="bus_stop_icon">巴士站圖標</string>
+    <string name="expand_icon">展開圖標</string>
+    <string name="view_all_stops">查看所有站點</string>
+    
+    <!-- 收藏功能 -->
+    <string name="add_to_favorite">加入收藏</string>
+    <string name="remove_from_favorite">移除收藏</string>
+    <string name="favorite_added">已加入收藏</string>
+    <string name="favorite_removed">已移除收藏</string>
+    <string name="favorite_routes">收藏路線</string>
+    <string name="no_favorites">尚未收藏任何路線</string>
+    <string name="action_favorite">收藏</string>
+    <string name="action_favorite_added">已收藏</string>
+    <string name="action_favorite_removed">已取消收藏</string>
+</resources>
